@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\BloombergMarketsController;
 use App\Http\Controllers\BloombergCurrencyPriceController;
+use App\Http\Controllers\ChatgptController;
 
 
 /*
@@ -26,3 +27,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('bloomberg/{category}', [BloombergMarketsController::class, 'getData']);
 
 Route::get('bloombergcurrencyprices', [BloombergCurrencyPriceController::class, 'getData']);
+
+Route::post('chatgptcomplete/{prompt}', [ChatgptController::class, 'store']);
