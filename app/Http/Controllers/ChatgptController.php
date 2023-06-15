@@ -25,7 +25,7 @@ class ChatgptController extends Controller
                 ],
                 'headers' => [
                     'X-RapidAPI-Host' => 'openai80.p.rapidapi.com',
-                    'X-RapidAPI-Key' => '6ac1bd33f1msha03ffb02f033ddap1ad13ajsn2c7840f2ad06',
+                    'X-RapidAPI-Key' => 'eb08bc8d35msha71ae9f40453646p197000jsn6a04b7195d17',
                     'content-type' => 'application/json',
                 ],
             ]);
