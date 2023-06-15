@@ -18,7 +18,7 @@ class BloombergCurrencyPriceController extends Controller
             $response = $client->request('GET', 'https://bb-finance.p.rapidapi.com/market/get-cross-currencies?id=aed%2Caud%2Cbrl%2Ccad%2Cchf%2Ccnh%2Ccny%2Ccop%2Cczk%2Cdkk%2Ceur%2Cgbp%2Chkd%2Chuf%2Cidr%2Cils%2Cinr%2Cjpy%2Ckrw%2Cmyr%2Cnok%2Cnzd%2Cphp%2Cpln%2Crub%2Csek%2Csgd%2Cthb%2Ctry%2Ctwd%2Cusd%2Czar', [
                 'headers' => [
                     'X-RapidAPI-Host' => 'bb-finance.p.rapidapi.com',
-                    'X-RapidAPI-Key' => 'c36c56039fmshd620998fee18507p1e34f8jsnf419c71462f0',
+                    'X-RapidAPI-Key' => '6ac1bd33f1msha03ffb02f033ddap1ad13ajsn2c7840f2ad06',
                 ],
             ]);
 

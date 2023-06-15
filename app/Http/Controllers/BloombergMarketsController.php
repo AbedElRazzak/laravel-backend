@@ -18,7 +18,7 @@ class BloombergMarketsController extends Controller
             $response = $client->request('GET', 'https://bb-finance.p.rapidapi.com/news/list?id='.$category, [
                 'headers' => [
                     'X-RapidAPI-Host' => 'bb-finance.p.rapidapi.com',
-                    'X-RapidAPI-Key' => 'c36c56039fmshd620998fee18507p1e34f8jsnf419c71462f0',
+                    'X-RapidAPI-Key' => '6ac1bd33f1msha03ffb02f033ddap1ad13ajsn2c7840f2ad06',
                 ],
             ]);
 
