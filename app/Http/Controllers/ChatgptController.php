@@ -19,6 +19,7 @@ class ChatgptController extends Controller
                     'messages' => [
                         [
                             'role' => 'user',
+                            // 'content' => "give summary about ronaldo, without mentioning you're a language model, write professonally like in the new york times.",
                             'content' => "give summary about ( $prompt ), without mentioning you're a language model, write professonally like in the new york times.",
                         ],
                     ],
