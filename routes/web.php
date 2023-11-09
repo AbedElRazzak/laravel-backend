@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\BloombergMarketsController;
+use App\Http\Controllers\BloombergCurrencyPriceController;
+use App\Http\Controllers\ChatgptController;
 
 /*
 |--------------------------------------------------------------------------
