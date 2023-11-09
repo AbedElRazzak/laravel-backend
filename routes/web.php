@@ -17,3 +17,9 @@ use App\Http\Controllers\TestController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('bloomberg/{category}', [BloombergMarketsController::class, 'getData']);
+
+Route::get('bloombergcurrencyprices', [BloombergCurrencyPriceController::class, 'getData']);
+
+Route::post('chatgptcomplete/{prompt}', [ChatgptController::class, 'store']);
